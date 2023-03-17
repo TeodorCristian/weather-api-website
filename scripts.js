@@ -14,7 +14,7 @@ let cloud = document.querySelector('.cloud');
 let uvindex = document.querySelector('.uvindex');
 
 button.addEventListener('click', function() {
-  fetch('http://api.weatherapi.com/v1/current.json?key=a16028740b374871926204617231202&q='+inputValue.value +'&aqi=no')
+  fetch('http://api.weatherapi.com/v1/current.json?key=herecomesyourkey&q='+inputValue.value +'&aqi=no')
 
     .then((response) => response.json())
     .then((data) => {
